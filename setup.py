@@ -24,9 +24,14 @@ setup(name='groundwire.register_form_recaptcha',
       include_package_data=True,
       zip_safe=False,
       install_requires=[
-          'setuptools',
           'collective.recaptcha',
-          # -*- Extra requirements: -*-
+          'plone.app.users',
+          'setuptools',
+          'zope.app.form',
+          'zope.app.pagetemplate',
+          'zope.formlib',
+          'zope.interface',
+          'zope.schema',
       ],
       entry_points="""
       # -*- Entry points: -*-
